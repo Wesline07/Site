@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .banner {
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+        }
+        .container {
+            padding: 20px;
+        }
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .course {
+            background-color: #e6f2ff;
+            border: 1px solid #004d99;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: calc(30% - 40px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .course {
+                width: calc(100% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>INSTITUT DE FORMATION PROFESSIONNELLE INTERNATIONALE FANSI <br>(IFPI-FANSI)</h1>
+    <nav>
+        <a href="#courses">Formations</a>
+        <a href="#testimonials">Témoignages</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="banner">
+    Rentrée prévue : 07 Septembre 2026
+</div>
+
+<div class="container">
+    <h2 id="courses">Nos Formations</h2>
+    <div class="courses">
+        <div class="course">
+            <h3>Marketing et Communication</h3>
+            <p>Apprenez les stratégies modernes de marketing.</p>
+        </div>
+        <div class="course">
+            <h3>Digital Marketing</h3>
+            <p>Maîtrisez le marketing numérique et les médias sociaux.</p>
+        </div>
+        <div class="course">
+            <h3>Gestion des Sites Web</h3>
+            <p>Formation complète sur la création de sites web.</p>
+        </div>
+        <div class="course">
+            <h3>Maintenance Informatique</h3>
+            <p>Techniques pour maintenir et réparer des systèmes informatiques.</p>
+        </div>
+        <div class="course">
+            <h3>Vidéos et E-learning</h3>
+            <p>Produisez des vidéos pédagogiques efficaces.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Contact : +237 656-124-803 | +237 677-718-618</p>
+    <p>Partenaires : Charité, Airessy</p>
+</footer>
+
+</body>
+</html>
